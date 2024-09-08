@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    /* background-color: rgb(37, 37, 37); */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px  10px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    padding: 25px;
+    position: absolute;
+}      
+
+.profile-card::before {
+    content: "";
+    position: absolute;
+    height: 26%;
+    width: 100%;
+    background-color: #18a3ff;
+    top: 0;
+    border-radius: 24px 24px 0 0;
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #18a3ff;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.image .profile-img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-data .name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.text-data .job {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-card .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.media-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 8px;
+    width: 34px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+}
+
+.yt {
+    background-color: #FF0000;
+}
+
+.f {
+    background-color: #1877F2;
+}
+
+.insta {
+    background-color: #e1306c;
+}
+
+.tiktok {
+    background-color: #000;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+.whatsapp:hover {
+    background-color: #FFF;
+    color: #25d366;
+    border: 2px solid #25d366;
+    transition: all 0.3s ease-in-out;
+}
+
+.yt:hover {
+    background-color: #FFF;
+    color: #FF0000;
+    border: 2px solid #FF0000;
+    transition: all 0.3s ease-in-out;
+}
+
+.f:hover {
+    background-color: #FFF;
+    color: #1877F2;
+    border: 2px solid #1877F2;
+    transition: all 0.3s ease-in-out;
+}
+
+.insta:hover {
+    background-color: #FFF;
+    color: #e1306c;
+    border: 2px solid #e1306c;
+    transition: all 0.3s ease-in-out;
+}
+
+.tiktok:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 2px solid #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-card .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.buttons .button {
+    background-color: #18a3ff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.buttons .button:hover {
+    background-color: #03395d;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-card .analytics {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.analytics .data{
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.data:last-child {
+    border-right: none;
+}
+
+.data i {
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.text-info {
+    font-family: "Noto Kufi Arabic", sans-serif;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+/* THE LOCATION PAGE */
+
+
+
+
+.hhh {
+    color: #333;
+}
+
+.baa section{
+ margin: auto;
+ width: 80%;
+ background-color: #FFF;
+ text-align: center;
+ padding: 24px;
+ border-radius: 0 24px;
+ box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.3);
+ color: #000;
+ position: absolute;
+}
+
+.baa h1 {
+margin: 6px 24px 36px 24px;
+font-size: 48px;
+font-weight: 700;
+color: rgb(0, 0, 0);
+background-color: #fff;
+}
+
+.baa div {
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.baa a{
+    display: block;
+    text-align: center;
+    margin: 24px;
+    background-color: #FF0000;
+    padding: 12px 36px;
+    border-radius: 48px;
+    color: #FFF;
+    text-decoration: none;
+    border: 2px solid red;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+    font-size: 36px;
+    font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+.baa a:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 48px 48px 48px 0;
+    transition: 0.25s all ease-out;
+}
+
+/* PAGE a */
+
+
+
+
+
+.acard {
+    width: 90%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    border-radius: 24px;
+}
+
+.acard h1 {
+    text-align: center;
+    margin: 12px;
+    color: #111;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.acard h2{
+    color: #333;
+    font-size: 1em;
+    margin: 0 12px;
+    text-align: center;
+}
+
+.acard h1 a {
+    color: white;
+    background-color: #f00;
+    padding: 6px 24px;
+    text-decoration: none;
+    border-radius: 48px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border: 3px solid #f00;
+    font-size: 0.55em;
+    display: block;
+}
+
+.acard h1 a:hover {
+    background-color: white;
+    color: #f00;
+}
+
+.acard h3 {
+    text-align: center;
+    margin: 12px 0 0 0;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 700;
+}
